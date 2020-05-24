@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sch.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="sch.js"></script>
+  </head>
+  <body>
+    
+      
+    
+    <div class="display">
+      <div>
+        <input name="input" type="text" placeholder="YYYY-MM-DD" id="showHere" required >        
+      </div>
+    </div>
+    <div class="schedule">
+      
+      <div class="scheduleHeader">
+          <h3 class="years"></h3>
+          <div class="before">Before</div>
+          <div class="next">Next</div>    
+        </div>
+      <div class="days">
+        <div class="day">S</div>
+        <div class="day">M</div>
+        <div class="day">T</div>
+        <div class="day">W</div>
+        <div class="day">T</div>
+        <div class="day">F</div>
+        <div class="day" id="lastDay">S</div>
+      </div>
+      
+    </div>
+    <div class="timePicker" hidden >
+      <select id="picker">
+        <option value="">Choose Booking Time</option>
+      </select>
+    </div>
+    <div class="submit">
+      <input id="test" type="button" value="click me" >
+    </div>
+  </body>
+</html>
