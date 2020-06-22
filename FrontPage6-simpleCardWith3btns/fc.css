@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./red-ferrari-car-2568539.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+}
+.box-img {
+  border-radius: 20px;
+  width: 200px;
+}
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box h5 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center;
+}
+.box li{
+      
+    background-color: aliceblue;
+    /* width: 100px;
+    height: 30px; */
+    margin: 6px;
+    list-style: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+}
+.box li a{
+    color: #1c1e23;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease-in-out 250ms;
+    line-height:30px ;
+    padding: 0 10px;
+}
+.box li a:hover{
+    cursor: pointer;
+    
+    
+}
+.box:hover{
+  background-color:#622034aa;
+  color: #0096d6
+}
