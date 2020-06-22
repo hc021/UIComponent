@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="darkThemeNavBar.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="inner-width">
+        <a href="" class="logo"><img src="logo.png" alt="" /></a>
+        <i class="menu-toggle-btn fas fa-bars"></i>
+        <nav class="navigation-menu">
+          <a href="#"><i class="fas fa-home home"></i>Home</a>
+          <a href="#"><i class="fas fa-align-left about"></i>About</a>
+          <a href="#"><i class="fab fa-buffer works"></i>Works</a>
+          <a href="#"><i class="fas fa-user team"></i>Team</a>
+          <a href="#"><i class="fas fa-headset contact"></i>Contact</a>
+        </nav>
+      </div>
+    </header>
+    <script type="text/javascript">
+    $(".menu-toggle-btn").click(function (e) { 
+        $(this).toggleClass("fa-times");
+        $(".navigation-menu").toggleClass("active");
+        
+    });
+
+    </script>
+  </body>
+</html>
